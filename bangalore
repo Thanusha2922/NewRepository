@@ -1,2 +1,133 @@
 this is my first repository
 this is always giving an error
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop (master)
+$ git clone "https://github.com/Thanusha2922/NewRepository.git"
+Cloning into 'NewRepository'...
+remote: Counting objects: 18, done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 18 (delta 3), reused 7 (delta 0), pack-reused 0
+Unpacking objects: 100% (18/18), done.
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop (master)
+$ cd NewRepository
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$ touch reddy
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$ echo "last sentence" >>reddy
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$ echo "learning git" >>reddy
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$ git add .
+warning: LF will be replaced by CRLF in reddy.
+The file will have its original line endings in your working directory.
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   reddy
+
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$ git push origin master
+Username for 'https://github.com': thanusha2922
+Everything up-to-date
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$ echo "learning git" >>reddy
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$ echo "last sentence" >>reddy
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$ git add .
+warning: LF will be replaced by CRLF in reddy.
+The file will have its original line endings in your working directory.
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$ git commit -m"last commit"
+[master 944c4d5] last commit
+ 1 file changed, 4 insertions(+)
+ create mode 100644 reddy
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$ git push origin master
+Username for 'https://github.com': thanusha2922
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 293 bytes | 146.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Thanusha2922/NewRepository.git
+   000b8ec..944c4d5  master -> master
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$ git commit -m"added git commands"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+        modified:   reddy
+
+no changes added to commit
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$ git push origin master
+Username for 'https://github.com': thanusha2922
+Everything up-to-date
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$ git add .
+warning: LF will be replaced by CRLF in reddy.
+The file will have its original line endings in your working directory.
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   reddy
+
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$ git push origin master
+Username for 'https://github.com': thanusha2922
+Everything up-to-date
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$ git commit -m"added git commands"
+[master 1c80a36] added git commands
+ 1 file changed, 59 insertions(+)
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$ git push origin master
+Username for 'https://github.com': thanusha2922
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 948 bytes | 316.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Thanusha2922/NewRepository.git
+   944c4d5..1c80a36  master -> master
+
+LENOVO@LENOVO-PC MINGW32 ~/Desktop/NewRepository (master)
+$
+
+added git commands
+added git commands
