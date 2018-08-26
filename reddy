@@ -2,3 +2,62 @@ last sentence
 learning git
 learning git
 last sentence
+
+
+LENOVO@LENOVO-PC MINGW32 /d
+$ git clone "https://github.com/Thanusha2922/NewRepository.git"
+Cloning into 'NewRepository'...
+remote: Counting objects: 12, done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 12 (delta 1), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (12/12), done.
+
+LENOVO@LENOVO-PC MINGW32 /d
+$ cd new repository
+bash: cd: too many arguments
+
+LENOVO@LENOVO-PC MINGW32 /d
+$ cd NewRepository
+
+LENOVO@LENOVO-PC MINGW32 /d/NewRepository (master)
+$ touch thanu
+
+LENOVO@LENOVO-PC MINGW32 /d/NewRepository (master)
+$ echo "this is the second one" >>thanu
+
+LENOVO@LENOVO-PC MINGW32 /d/NewRepository (master)
+$ git add .
+warning: LF will be replaced by CRLF in thanu.
+The file will have its original line endings in your working directory.
+
+LENOVO@LENOVO-PC MINGW32 /d/NewRepository (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   thanu
+
+
+LENOVO@LENOVO-PC MINGW32 /d/NewRepository (master)
+$ git commit -m"this is my next commit"
+[master bfa3228] this is my next commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 thanu
+
+LENOVO@LENOVO-PC MINGW32 /d/NewRepository (master)
+$ git push origin master
+Username for 'https://github.com': thanusha2922
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 336 bytes | 336.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Thanusha2922/NewRepository.git
+   70ebf5d..bfa3228  master -> master
+
+
+
